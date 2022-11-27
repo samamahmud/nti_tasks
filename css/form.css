@@ -1,0 +1,132 @@
+body {
+    background-color: #2092c9;
+}
+
+.form {
+
+    background-color: white;
+    height: 535px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+}
+
+.form img {
+    height: 90px;
+    width: 100px;
+    margin-left: 40%;
+    padding-top: 20px;
+}
+
+.form p {
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+
+#icon1 {
+    margin-left: 20px;
+    color: black;
+    padding-top: 15px;
+}
+
+.name {
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gainsboro;
+    width: 74%;
+    position: absolute;
+    top: 33%;
+}
+
+::placeholder {
+    color: gainsboro;
+    top: -2px;
+    position: absolute;
+}
+
+#icon2 {
+    color: black;
+    position: absolute;
+    padding-top: 15%;
+    margin-left: -16px;
+}
+
+.email {
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gainsboro;
+    width: 74%;
+    position: absolute;
+    top: 44%;
+}
+
+#icon3 {
+    color: black;
+    position: absolute;
+    padding-top: 28%;
+    margin-left: -16px;
+}
+
+.pass {
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gainsboro;
+    width: 74%;
+    position: absolute;
+    top: 56%;
+}
+
+#icon4 {
+    color: black;
+    position: absolute;
+    padding-top: 42%;
+    margin-left: -16px;
+}
+
+.pass2 {
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gainsboro;
+    width: 74%;
+    position: absolute;
+    top: 69%;
+}
+
+.button {
+    margin-top: 55%;
+    position: absolute;
+    width: 82%;
+    height: 35px;
+    background-color: #7caf41;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: black;
+}
+
+#end {
+    margin-top: 58%;
+    left: 26%;
+    position: absolute;
+    color: black;
+    font-weight: normal;
+}
+
+span {
+    color: blue;
+    cursor: pointer;
+}

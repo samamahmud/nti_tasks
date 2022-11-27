@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+}
+
+.first img {
+    height: 410px;
+    width: 1280px;
+}
+
+.first h1 {
+    color: chocolate;
+    margin-top: -300px;
+    position: absolute;
+    margin-left: 480px;
+}
+
+.first p {
+    color: rgb(187, 88, 17);
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -260px;
+}
+
+.first button {
+    position: absolute;
+    margin-left: -700px;
+    top: 190px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 110px;
+    border-color: chocolate;
+    background-color: rgba(122, 112, 112, 0.023);
+    cursor: pointer;
+    color: chocolate;
+    border-style: solid;
+}
+
+.second {
+    background-color: rgb(177, 99, 43);
+    position: absolute;
+    top: 350px;
+}
+
+.second p {
+    color: white;
+    text-align: center;
+}
+
+.third {
+    background-color: rgb(177, 99, 43);
+    position: absolute;
+    top: 450px;
+    background-color: white;
+}
+
+.third p {
+    color: rgb(183, 91, 25);
+    text-align: center;
+}
+
+.fourth {
+    background-color: rgb(177, 99, 43);
+    height: 55px;
+    width: 430px;
+    position: absolute;
+    top: 554px;
+}
+
+.fourth p {
+    text-align: center;
+    color: white;
+}
+
+.fifth {
+    background-color: white;
+    height: 55px;
+    width: 430px;
+    position: absolute;
+    top: 554px;
+    margin-left: 430px;
+}
+
+.fifth p {
+    text-align: center;
+    color: rgb(187, 88, 17);
+}
+
+.six {
+    background-color: rgb(177, 99, 43);
+    height: 55px;
+    position: absolute;
+    top: 554px;
+    width: 430px;
+    margin-left: 850px;
+}
+
+.six p {
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+}
+
+.home {
+    background-size: cover;
+    width: 100%px;
+    height: 500px;
+    background-image: url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.home h1 {
+    color: white;
+
+    text-align: center;
+    padding-top: 40px;
+}
+
+.home h4 {
+    text-align: center;
+    color: green;
+}
+
+.head {
+    background-color: rgb(159, 190, 159);
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 507px;
+}
+
+.head a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4 {
+    text-align: center;
+
+}
+
+.photo1 img {
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+}
+
+.photo2 img {
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+}
+
+.photo3 img {
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+}
+
+.photo4 img {
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+}
+
+#end {
+    height: 600px;
+    background-color: rgba(232, 232, 243, 0.473);
+    margin: 30px;
+    width: 800px;
+    margin-left: 237px;
+    line-height: 20px;
+}
+
+#end h2 {
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+
+#end p {
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    width: 600px;
+    height: 40px;
+    background-color: rgba(32, 124, 32, 0.459);
+    margin-top: 50px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+
+    border: 3px solid rgb(25, 199, 25);
+}
