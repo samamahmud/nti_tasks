@@ -1,0 +1,26 @@
+.calculator {
+    margin: auto;
+    margin-top: 50px;
+    background-color: #00b2c987;
+    height: 358px;
+    width: 274px;
+}
+
+
+.text {
+    width: 98%;
+    height: 45px;
+    background-color: white;
+}
+
+.btn {
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+    border-style: none;
+}
+
+body {
+    background-color: #e9e8e8;
+    ;
+}

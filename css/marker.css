@@ -1,4 +1,30 @@
-::marker {
-    list-style-type: "lock";
+ul li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.twitter::before {
+    content: '\f099';
+    font: var(--fa-font-brands);
+    color: blue;
+}
+
+/*
+.fa-affiliatetheme::before {
+    content: '\f36b';
+    font: var(--fa-font-brands);
+    color: rgb(46, 7, 240);
+}
+
+.fa-angellist::before {
+    content: '\f209';
+    font: var(--fa-font-brands);
+    color: rgb(127, 127, 32);
 
 }
+
+.fa-android::before {
+    content: '\f17b';
+    font: var(--fa-font-brands);
+    color: rgb(28, 199, 28);
+} */

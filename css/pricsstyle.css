@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 40px;
+    width: 100%;
+    background-color: #eee9e9;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-weight: bold;
+    line-height: 3px;
+
+}
+
+.background {
+    background-image: url("../images/photo_2022-11-29_13-12-46.jpg");
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+    margin-top: -22px;
+}
+
+.container {
+    background-color: white;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.first,
+.second,
+.third {
+    height: 450px;
+    background-color: white;
+    width: 30%;
+    position: relative;
+    top: 10%;
+    border-color: rgb(231, 226, 226);
+    border-style: solid;
+    margin-top: 20px;
+}
+
+
+.personal {
+    background-color: green;
+    width: 100%;
+    height: 180px;
+    position: absolute;
+}
+
+
+.personal h1,
+p {
+    color: white;
+    text-align: center;
+}
+
+.paragraphs {
+    height: 210px;
+    width: 100%;
+    background-color: rgba(220, 240, 220, 0.886);
+    position: absolute;
+    top: 40%;
+}
+
+.paragraphs p {
+    border-bottom: 1px blue solid;
+    color: black;
+}
+
+button {
+    position: absolute;
+    top: 93%;
+    border-radius: 35%;
+    border-style: none;
+    margin-left: 39%;
+
+}
+
+.business {
+    background-color: rgb(29, 29, 111);
+    width: 100%;
+    height: 180px;
+    position: absolute;
+}
+
+.business h1,
+p {
+    color: white;
+    text-align: center;
+}
+
+.paragraphs2 {
+    height: 210px;
+    width: 100%;
+    background-color: rgba(220, 240, 220, 0.886);
+    position: absolute;
+    top: 40%;
+}
+
+.paragraphs2 p {
+    border-bottom: 1px blue solid;
+    color: black;
+}
+
+.enterprise {
+    background-color: black;
+    width: 100%;
+    height: 180px;
+    position: absolute;
+}
+
+.enterprise h1,
+p {
+    color: white;
+    text-align: center;
+}
+
+.paragraphs3 {
+    height: 210px;
+    width: 100%;
+    background-color: rgba(220, 240, 220, 0.886);
+    position: absolute;
+    top: 40%;
+}
+
+.paragraphs3 p {
+    border-bottom: 1px blue solid;
+    color: black;
+}
+
+.container2 {
+    background-color: white;
+
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 70px;
+
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+
+    background-color: white;
+    width: 500px;
+}
+
+
+.p1 p,
+.p2 p,
+.p3 p,
+.p4 p {
+    color: black;
+    text-align: justify;
+}
+
+
+@media(max-width:600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .first,
+    .second,
+    .third {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+        width: 300px;
+    }
+
+}
+
+
+.footer {
+    height: 50px;
+    background-color: black;
+}
+
+.footer p {
+    padding: 10px;
+    color: gray;
+
+}
